@@ -1,0 +1,88 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 177, 104, 0.238);
+    background-image: url(360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"] select {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-bottom: 2px solid rgb(12, 121, 108);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 5px 5px 5px;
+
+}
+
+input[type="reset"] {
+    background-color: rgba(12, 13, 14, 0.745);
+    color: rgb(248, 245, 245);
+    border: none;
+    font-size: 18px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 2px ;
+
+}
+
+input[type="reset"]:hover {
+    background-color: rgba(23, 234, 234, 0.927);
+}
+
+#courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px;
+    font-size: large;
+    background-color: rgba(38, 179, 226, 0.905);
+    width: 400px;
+}
+
+button {
+
+    background-color: rgb(38, 44, 43);
+    color: rgb(247, 242, 242);
+    padding: 25px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px ;
+
+}
+
+button:hover {
+    background-color: rgb(44, 204, 207);
+}
